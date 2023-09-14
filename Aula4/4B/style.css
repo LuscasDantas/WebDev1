@@ -1,0 +1,111 @@
+#index_body {
+    background-color: #242526;
+    color: white;
+    min-height: 100%;
+}
+
+nav {
+    background-color: #E4E6EB;
+}
+
+.pages {
+    margin-top: 30px;
+}
+
+#content_container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#table1 th{
+    background-color: green;
+}
+
+#table1 tr:nth-child(even){
+    background-color: #abf5c3;
+}
+
+#table2 th{
+    background-color: #414241;
+}
+
+#table2 tr:nth-child(odd){
+    background-color: black;
+}
+
+#table2 tr:nth-child(even){
+    background-color: #9a9c9a;
+}
+
+#table2{
+    color: white;
+}
+
+/* Tabela Colspan/rowspan Praticando 6 */
+
+#praticando6_body{
+    background-color: rgb(130, 200, 243);
+}
+
+#table_colspan{
+    border: 1px solid red;
+    width: 50%;
+    height: 50px;
+}
+
+#table_colspan td{
+    border: 1px solid red;
+    padding: 30px 60px;
+    text-align: center;
+}
+
+#row1{
+    background-color: green;
+}
+
+#row2{
+    background-color: red;
+}
+
+#row3{
+    background-color: blue;
+}
+
+#row4{
+    background-color: yellow;
+}
+
+/* Tabela de legendas */
+#sub_table{
+    border: 1px solid red;
+    margin-top: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+#sub_table td{
+    border: 1px solid red;
+    padding: 5px 10px;
+}
+
+#row_1{
+    background-color: green;
+}
+
+#row_2{
+    background-color: red;
+}
+
+#row_3{
+    background-color: blue;
+}
+
+#row_4{
+    background-color: yellow;
+}
