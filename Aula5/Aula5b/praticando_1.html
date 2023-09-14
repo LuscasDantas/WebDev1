@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seções e Containers</title>
+    <style>
+        body {
+            background-color: lightgrey;
+        }
+
+        main {
+            margin: 2%;
+        }
+
+        #fundo_azul {
+            background-color: lightskyblue;
+            border-top: 4px solid red;
+            border-left: 4px solid red;
+            border-bottom: 4px solid darkred;
+            border-right: 4px solid darkred;
+        }
+
+        #fundo_laranja {
+            background-color: #FFA07A;
+            border-top: 4px solid blue;
+            border-left: 4px solid blue;
+            border-bottom: 4px solid darkblue;
+            border-right: 4px solid darkblue;
+        }
+
+        .destaque {
+            color: rgb(206, 0, 0);
+            font-weight: bold;
+        }
+
+        .marcacao {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Praticando 1 - Seções e containers</h1>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel fringilla purus. Praesent
+                sagittis
+                leo vel felis viverra mollis. Cras eros orci, tristique in ultricies non, feugiat ac erat. Nunc lectus
+                dui,
+                placerat euismod hendrerit at, pellentesque ac turpis.
+            </p>
+
+        </div>
+
+        <div id="fundo_azul">
+            <p>Lorem ipsum dolor sit amet, <span class="destaque">consectetur</span> adipiscing elit. Suspendisse vel
+                fringilla purus. Praesent
+                sagittis
+                leo vel felis <span class="destaque">viverra mollis</span>. Cras eros orci, tristique in ultricies non,
+                feugiat ac erat. Nunc lectus
+                dui,
+                placerat euismod hendrerit at, pellentesque ac turpis. Donec <span class="destaque">feugiat</span>
+                tortor nisi, id <span class="destaque">laoreet magnas</span>
+                suscipit
+                sit amet. Sed in tristique neque. Fusce <span class="destaque">vestibulum</span> libero at augue porta
+                blandit.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, <span class="destaque">consectetur</span> adipiscing elit. Suspendisse vel fringilla purus. Praesent
+                sagittis
+                leo vel felis viverra mollis. Cras eros orci, tristique in <span class="destaque">ultricies</span> non, feugiat ac erat. Nunc lectus
+                dui,
+                placerat euismod <span class="destaque">hendrerit</span> at, pellentesque ac turpis.
+            </p>
+        </div>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel fringilla purus. Praesent
+                sagittis
+                leo vel felis viverra mollis. Cras eros orci, tristique in ultricies non, feugiat ac erat. Nunc lectus
+                dui,
+                placerat euismod hendrerit at, pellentesque ac turpis.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel fringilla purus. Praesent
+                sagittis
+                leo vel felis viverra mollis. Cras eros orci, tristique in ultricies non, feugiat ac erat. Nunc lectus
+                dui,
+                placerat euismod hendrerit at, pellentesque ac turpis.
+            </p>
+        </div>
+
+        <div id="fundo_laranja">
+            <p>Lorem ipsum dolor sit amet, <span class="marcacao">consectetur</span> adipiscing elit. Suspendisse vel
+                fringilla purus. Praesent
+                sagittis
+                leo vel felis <span class="marcacao">viverra mollis</span>. Cras eros orci, tristique in ultricies non,
+                feugiat ac erat. Nunc lectus
+                dui,
+                placerat euismod hendrerit at, pellentesque ac turpis. Donec feugiat
+                tortor nisi, id <span class="marcacao">laoreet magnas</span>
+                suscipit
+                sit amet. Sed in tristique neque. Fusce vestibulum libero at augue porta
+                blandit.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, <span class="marcacao">consectetur</span> adipiscing elit. Suspendisse vel fringilla purus. Praesent
+                sagittis
+                leo vel felis viverra mollis. Cras eros orci, tristique in <span class="marcacao">ultricies</span> non, feugiat ac erat. Nunc lectus
+                dui,
+                placerat euismod <span class="marcacao">hendrerit</span> at, pellentesque ac turpis.
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
